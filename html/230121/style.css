@@ -1,0 +1,28 @@
+/* .new-style {
+  color: red;
+}
+ */
+
+/* #new-style {
+  color: red;
+} */
+
+/* p {
+  color:red;
+} */
+
+/* p.new-style {
+  color: red;
+}  */
+/* p태그에 있는 class가 new-style인 태그만 선택  */
+
+/* div .new-style {
+  color:red;
+} */
+/* div .new-style div태그 아래에 있는 모든 자손들 중 스타일이 new-style을 가진 태그만  */
+
+span>.new-style
+{
+  color:red;
+}
+/* span>.new-style span태그 바로 밑에 직접적인 자식중에서 new-style을 가진 태그  */

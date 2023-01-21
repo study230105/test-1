@@ -1,0 +1,41 @@
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding-top : 50px;
+  padding-left : 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.box-green{
+  border: 50px solid green;
+  width: 200px;
+  padding-top : 50px;
+  padding-left : 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top : 20px;
+/*   display:none ;  완전삭제 */
+  visibility:hidden ;
+/* 영역은 표시하고 숨김    */
+
+/*   차이 : 둘 다 요소를 보이지 않게 하는 속성이라는 점은 같지만, ui적으로 볼 때 다르다
+  display:none은 화면 상 어떤 영역을 차지하지 않고 완전히 삭제된 것처럼 보이게 한다
+  visibility:hidden은 해당 요소가 보이지 않을 분 요소가 존재하는 영역은 확실히 보이게 된다. 
+  */
+  
+  
+}
+
+.box-blue {
+  border: 50px solid #27ae60;
+  width: 200px;
+  padding-top : 50px;
+  padding-left : 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  
+  
+}
