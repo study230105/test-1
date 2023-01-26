@@ -1,0 +1,132 @@
+.navbar {
+  float:right;
+/*   float : 이미지 또는 html 태그 요소를 배치하느데 쓰임 */
+/*   border: 1px solid red; : borer를 통해 div 또는 다른 태그들의 테두리를 그림으로써 해당 태그가 얼마나 많은 영역을 차지하고 있는지 확인하기 쉽다 */
+  margin: 20px;
+/* 모든 방면으로 20px;    */
+  
+}
+
+.nav-item {
+  text-decoration : none;
+  color: black; 
+  margin-right: 15px;
+/*   text-decoration : 밑줄, 가운데로 긋기 등 텍스트에 여러 효과를 줄 수 있다. */
+}
+
+.nav-item:hover {
+  text-decoration: underline; 
+}
+
+/* nav-item 이라는 스타일을 가진 html 태그에 hover(=mouse over)라는 이벤트가 생기면 ~ 스타일을 실행시켜라  
+hover : 마우스가 태그 위로 올라왔을때 발생하는 이벤트
+active : 사용자의 마우스가 해당 요소를 클릭하는 순간부터 떼는 순간까지 요소의 스타일 변경할 수 있다. 
+focus : 사용자의 마우스가 해당 요소를 클릭하면 요소의 스타일 변경할 수 있다.
+클릭 이 외에도 탭 키를 이용해서 요소를 선택해도 활성화된다.
+
+
+*/
+
+.main {
+  margin-top : 300px;
+  text-align : center;
+  
+  
+}
+
+body { 
+  display: contents;
+  
+}
+
+/* html 태그에 직접적으로 스타일을 주는 방법, . 은 오직 클래스에서만 사용한다. */
+
+.input-area {
+  margin-top:20px;
+  
+}
+
+.input-box {
+  width : 584px;
+  height : 46px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  padding-left : 40px;
+  padding-right : 40px;
+  
+}
+
+.search-icon {
+  position : relative;
+  left: 40px;
+  color : #9aa0a6;
+  
+}
+
+.mic-icon {
+  position : relative;
+/*  있단 위치에서 움직인다.  */
+  right : 40px;
+  color : #9aa0a6;
+}
+
+.button-area {
+  padding-top: 18px;
+}
+
+.button-style {
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.button-style:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+.footer {
+  position: absolute;
+/*  절대값. 컨텐츠 영역만큼 줄어든다. float과 유사함 */
+  bottom: 0px;
+  background: #f2f2f2;
+  width : 100%;
+}
+
+.first-line {
+  padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+ 
+}
+
+.second-line {
+  padding: 15px 30px;
+   font-size: 15px;
+    color: #70757a;
+
+ 
+}
+
+.second-line-second {
+  float:right;
+}
+
+.second-line a {
+   text-decoration:none;
+  color: #70757a;
+ padding-right: 15px;
+    
+}
+
+.second-line a:hover {
+  text-decoration: underline;
+}
